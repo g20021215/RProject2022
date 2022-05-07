@@ -11,7 +11,7 @@ This repository is used for R Presentation.
 
 陈郅涵 2030005013 Q5
 
-![image](https://github.com/g20021215/RProject2022/R.png)
+![image](https://github.com/g20021215/RProject2022/blob/main/R.png)
 
 
 Code Q1.R
