@@ -63,4 +63,5 @@ plot(lm2)
 #link:https://zhuanlan.zhihu.com/p/34627302
 
 ```R
+
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.1.png)
