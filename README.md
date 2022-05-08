@@ -12,8 +12,7 @@ This repository is used for R Presentation.
 陈郅涵 2030005013 Q5
 
 ![test image size]<img src="https://github.com/g20021215/RProject2022/blob/main/R.png" width="450" height="400">
-%!
-[image](https://github.com/g20021215/RProject2022/blob/main/R.png)
+%
 
 
 Code Q1.R
@@ -64,4 +63,4 @@ plot(lm2)
 #link:https://zhuanlan.zhihu.com/p/34627302
 
 ```R
-
+![image](https://github.com/g20021215/RProject2022/blob/main/10.1.png)
