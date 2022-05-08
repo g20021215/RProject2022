@@ -65,4 +65,6 @@ plot(lm2)
 
 ```
 
+![image](https://github.com/g20021215/RProject2022/blob/main/10.1test.png)
+
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.1.png)
