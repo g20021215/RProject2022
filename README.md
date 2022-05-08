@@ -10,7 +10,7 @@ This repository is used for R Presentation.
 李文锐 2030005036 Q4
 
 陈郅涵 2030005013 Q5
-
+![test image size]<img src="https://github.com/g20021215/RProject2022/blob/main/R.png" width="400" height="790">
 ![image](https://github.com/g20021215/RProject2022/blob/main/R.png)
 
 
