@@ -14,7 +14,7 @@ This repository is used for R Presentation.
 ![test image size]<img src="https://github.com/g20021215/RProject2022/blob/main/R.png" width="450" height="400">
 %
 
-
+# Problem 1
 Code Q1.R
 ```R
 #Y=Value
@@ -71,7 +71,7 @@ plot(lm2)
 
 
 
-#Problem 2
+# Problem 2
 ```R
 #(a)
 A <- read.csv("RealEstate.csv",header = TRUE)
