@@ -79,7 +79,7 @@ plot(lm2)
 
 # Problem 2
 ```R
-#(a)
+(a)
 A <- read.csv("RealEstate.csv",header = TRUE)
 colnames(A)
 Y  <- A$Value 
@@ -99,13 +99,11 @@ plot(model)
 ```
 
 b),d)
-according to Q1, the p-value of variables x1,x2,x3,x4,x7 are all<0.05,these are significant variables we should choose.
-so we need to use lm(y~x1+x2+x3+X4+x7) and the regression model is:
+according to Q1, the p-value of variables x1,x2,x3,x4,x7 are all<0.05,these are significant variables we should choose. so we need to use `lm(y~x1+x2+x3+X4+x7)` and the regression model is:
 ![image](https://github.com/g20021215/RProject2022/blob/main/2f.png)
 
 c)
-#Since the p-values of the two models are  same, We just have to compare r^2.
-#The r^2 of model in Question 1 is 0.3557, the r^2 of model in Question 2 is 0.3534<0.3557, so model in Question 1 is better than model in Question 2.
+Since the p-values of the two models are same, the adjusted R-squared of them is similar, and the F-value of model in Question 1 is 25.91, the F-value of model in Question 2 is 33.89>25.91, so model in Question 2 is better than model in Question 1.
 
 (e)(f)
 ```R
@@ -120,8 +118,31 @@ plot(model)
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2.png)
 
 # Problem 3
+(a)
+```R
+lm1 = lm(Y~X1+X2+X3+X4+X5+X6+X7)
+step(lm1,direction = "both")
 
+```
+(b)
+(c)
+```R
+Lm3<-lm(Y~X1+X2+X3+X4+X5+X7)
+summary(lm3)
+```
+![image](https://github.com/g20021215/RProject2022/blob/main/10.3test.png)
+F-statistic in `lm3` is 29.69, greater than F-statistic in lm1=25.91
+new model `lm3` is better than the model in Question 1
+(d)
+![image](https://github.com/g20021215/RProject2022/blob/main/10.1test.png)
 
+(e)&(f)
+```R
+windows()
+par(mfrow=c(2,2))
+plot(lm3)
+```
+![image](https://github.com/g20021215/RProject2022/blob/main/10.4.png)
 
 
 # Problem 4
