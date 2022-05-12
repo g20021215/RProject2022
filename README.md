@@ -96,22 +96,24 @@ summary(model)
 windows()
 par(mfrow=c(2,2))
 plot(model)
+```
 
-#b),d)
-#according to Q1, the p-value of variables x1,x2,x3,x4,x7 are all<0.05,these are significant variables we should choose.
-#so we need to use lm(y~x1+x2+x3+X4+x7)
-#and the regression model is:
+b),d)
+according to Q1, the p-value of variables x1,x2,x3,x4,x7 are all<0.05,these are significant variables we should choose.
+so we need to use lm(y~x1+x2+x3+X4+x7) and the regression model is:
 ![image](https://github.com/g20021215/RProject2022/blob/main/2f.png)
 
-#c)
+c)
 #Since the p-values of the two models are  same, We just have to compare r^2.
 #The r^2 of model in Question 1 is 0.3557, the r^2 of model in Question 2 is 0.3534<0.3557, so model in Question 1 is better than model in Question 2.
 
-#(e)(f)
-#summary(model)
-#windows()
-#par(mfrow=c(2,2))
-#plot(model)
+(e)(f)
+```R
+summary(model)
+windows()
+par(mfrow=c(2,2))
+plot(model)
+
 ```
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2test.png)
 
