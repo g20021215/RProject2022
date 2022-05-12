@@ -52,11 +52,12 @@ Estimated Regression Model:
 
 (C)
 The R^2 and adjusted R^2 are all approximate 0.35, which means the fitting level is okay.
+
 F statistic: The F value (8,+infty) is 2.93,and it is less than the model F-value = 25.91,so the model is significant at 0.05 level.
+
 (D)
 
-P-value: X5,X6 are not significant here
-There are two independent variables are not significant in this model at 0.05 significant level.
+P-value: X5,X6 are not significant here. There are two independent variables are not significant in this model at 0.05 significant level.
 
 (E)(F)
 
@@ -131,7 +132,8 @@ summary(lm3)
 ```
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.3test.png)
 F-statistic in `lm3` is 29.69, greater than F-statistic in lm1=25.91
-new model `lm3` is better than the model in Question 1
+
+New model `lm3` is better than the model in Question 1
 
 (d)
 
@@ -149,9 +151,12 @@ plot(lm3)
 # Problem 4
 
 The final estimated regression model in Problem 3 is 
+
 ![image](https://github.com/g20021215/RProject2022/blob/main/3f.png)
+
 if one-car garage, z=1; else z=0.
 
+(a)
 ```R
 
 A <- read.csv("RealEstate.csv",header = TRUE)
@@ -165,11 +170,10 @@ X5 <- A$Age
 X6 <- A$Taxes
 X7 <- A$Garage
 
-#(a)
+
 X3_sqr<-X3^2
 s4<-lm(Y~X1+X2+X3_sqr+X4+X5+X7)
 summary(s4)
-
 ```
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.4test.png)
@@ -196,8 +200,8 @@ s4<-lm(Y~X1+X2+X3_sqr+X4+X5+X7)
 windows()
 par(mfrow=c(2,2))
 plot(s4,main = "Graph of Q4")
-
 ```
+
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.4.png)
 
 # Problem 5
@@ -207,6 +211,7 @@ The final estimated regression model in Problem 4 is
 if one-car garage, z=1; else z=0.
 
 ```R
+
 A <- read.csv("RealEstate.csv",header = TRUE)
 colnames(A)
 Y  <- A$Value 
