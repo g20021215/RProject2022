@@ -110,3 +110,104 @@ plot(model)
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2test.png)
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2.png)
+
+# Question 4
+
+The final estimated regression model in Question 3 is y = 200.1082 - 2.4023x1 - 10.8475x2 + 44.3613x3 + 16.0319x4 - 0.4393x5 + 13.0485z + 16.6075(1-z) if one-car garage, z=1; else z=0.
+
+```R
+
+A <- read.csv("RealEstate.csv",header = TRUE)
+colnames(A)
+Y  <- A$Value 
+X1 <- A$LotSize
+X2 <- A$Bedrooms
+X3 <- A$Bathrooms
+X4 <- A$Rooms
+X5 <- A$Age
+X6 <- A$Taxes
+X7 <- A$Garage
+
+#(a)
+X3_sqr<-X3^2
+s4<-lm(Y~X1+X2+X3_sqr+X4+X5+X7)
+summary(s4)
+
+```
+
+![image](https://github.com/g20021215/RProject2022/blob/main/10.4test.png)
+
+ (b)
+ 
+The estimated regression model is y = 230.8968 - 2.4350x1 - 11.0383x2 + 13.4934x3^2 + 16.1508x4 - 0.3857x5 + 13.3908z + 25.2647(1-z)
+If one-car garage, z=1; else z=0.
+
+ (c)
+ 
+Since the p-value of the new model is equal to the p-value of Q3, F-value of the new model is larger than F-value of Q3. Also, the adjusted R-squared of them is similar. We can conclude that this new model is better than the model in Q3.
+
+(d)
+
+From the p-value of each independent variable, the p-value of x5 is greater than alpha, but the p-value of other variables is smaller than alpha, so we can conclude that each independent variable is significant, except X5.
+
+(e)&(f)
+
+```R
+
+s4<-lm(Y~X1+X2+X3_sqr+X4+X5+X7)
+windows()
+par(mfrow=c(2,2))
+plot(s4,main = "Graph of Q4")
+
+```
+![image](https://github.com/g20021215/RProject2022/blob/main/10.4.png)
+
+# Question 5
+
+The final estimated regression model in Question 4 is y = 230.8968 - 2.4350x1 - 11.0383x2 + 13.4934x3^2 + 16.1508x - 0.3857x5 + 13.3908z + 25.2647(1-z) 
+if one-car garage, z=1; else z=0.
+
+```R
+A <- read.csv("RealEstate.csv",header = TRUE)
+colnames(A)
+Y  <- A$Value 
+X1 <- A$LotSize
+X2 <- A$Bedrooms
+X3 <- A$Bathrooms
+X4 <- A$Rooms
+X5 <- A$Age
+X6 <- A$Taxes
+X7 <- A$Garage
+
+```
+(a)
+```R
+
+X4_sqr<-X4^2
+s5<-lm(Y~X1+X2+X3+X4_sqr+X5+X7)
+summary(s5)
+
+```
+![image](https://github.com/g20021215/RProject2022/blob/main/10.5test.png)
+
+(b)
+
+The estimated regression model is y = 255.1323 - 2.4278x1 - 9.2637x2 + 45.7318x3 + 0.9607x4^2 - 0.4476x5 + 14.5604z + 28.7064(1-z)
+if one-car garage, z=1;else z=0.
+
+(c)
+
+Since the p-value of the new model is equal to the p-value of Q4, F-value of the new model is smaller than F-value of Q4. Also, the adjusted R-squared of them is similar. We can conclude that this new model isn’t better than the model in Q3.
+
+(d)
+
+From the p-value of each independent variable, the p-value of x5 is greater than alpha, but the p-value of other variables is smaller than alpha, so we can conclude that each independent variable is significant, except X5.
+
+(e)&(f)
+```R
+s5<-lm(Y~X1+X2+X3r+X4_sqr+X5+X7)
+windows()
+par(mfrow=c(2,2))
+plot(s5,main = "Graph of Q5")
+```
+![image](https://github.com/g20021215/RProject2022/blob/main/10.5test.png)
