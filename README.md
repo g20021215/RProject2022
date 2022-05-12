@@ -117,9 +117,14 @@ plot(model)
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2.png)
 
+# Problem 3
+
+
+
+
 # Problem 4
 
-The final estimated regression model in Question 3 is 
+The final estimated regression model in Problem 3 is 
 ![image](https://github.com/g20021215/RProject2022/blob/main/3f.png)
 if one-car garage, z=1; else z=0.
 
@@ -173,7 +178,7 @@ plot(s4,main = "Graph of Q4")
 
 # Problem 5
 
-The final estimated regression model in Question 4 is 
+The final estimated regression model in Problem 4 is 
 ![image](https://github.com/g20021215/RProject2022/blob/main/4f.png)
 if one-car garage, z=1; else z=0.
 
