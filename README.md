@@ -45,8 +45,10 @@ summary(lm(Y~X1+X2+X3+X4+X5+X6+X7))#
 ```
 
 (b)
-latex code:
-Estimated Regression Model:$Y = 201.0-2.382X_1-10.89X_2+44.56X_3+16.09X_4+0.4465XX_5-2.457\times10^{-4}X_6+13.17\timesZ_1X_7+26.96\times(1-Z_1)X_7$\\
+Estimated Regression Model:
+![image](https://github.com/g20021215/RProject2022/blob/main/1f.png)
+
+
 
 (C)
 The R^2 and adjusted R^2 are all approximate 0.35, which means the fitting level is okay.
@@ -99,7 +101,7 @@ plot(model)
 #according to Q1, the p-value of variables x1,x2,x3,x4,x7 are all<0.05,these are significant variables we should choose.
 #so we need to use lm(y~x1+x2+x3+X4+x7)
 #and the regression model is:
-#y=177.2892-2.2128*x1-10.4201*x2+45.4787*x3+16.453*x4+13.2638*z1x7+26.1132*(1-z1)x7
+![image](https://github.com/g20021215/RProject2022/blob/main/2f.png)
 
 #c)
 #Since the p-values of the two models are  same, We just have to compare r^2.
@@ -143,7 +145,8 @@ summary(s4)
 
  (b)
  
-The estimated regression model is y = 230.8968 - 2.4350x1 - 11.0383x2 + 13.4934x3^2 + 16.1508x4 - 0.3857x5 + 13.3908z + 25.2647(1-z)
+The estimated regression model is 
+![image](https://github.com/g20021215/RProject2022/blob/main/4f.png)
 If one-car garage, z=1; else z=0.
 
  (c)
@@ -168,7 +171,8 @@ plot(s4,main = "Graph of Q4")
 
 # Question 5
 
-The final estimated regression model in Question 4 is y = 230.8968 - 2.4350x1 - 11.0383x2 + 13.4934x3^2 + 16.1508x - 0.3857x5 + 13.3908z + 25.2647(1-z) 
+The final estimated regression model in Question 4 is 
+![image](https://github.com/g20021215/RProject2022/blob/main/4f.png)
 if one-car garage, z=1; else z=0.
 
 ```R
@@ -196,7 +200,8 @@ summary(s5)
 
 (b)
 
-The estimated regression model is y = 255.1323 - 2.4278x1 - 9.2637x2 + 45.7318x3 + 0.9607x4^2 - 0.4476x5 + 14.5604z + 28.7064(1-z)
+The estimated regression model is 
+![image](https://github.com/g20021215/RProject2022/blob/main/5f.png)
 if one-car garage, z=1;else z=0.
 
 (c)
