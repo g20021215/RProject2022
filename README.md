@@ -124,8 +124,7 @@ lm1 = lm(Y~X1+X2+X3+X4+X5+X6+X7)
 step(lm1,direction = "both")
 
 ```
-(b)
-(c)
+(b)&(c)
 ```R
 Lm3<-lm(Y~X1+X2+X3+X4+X5+X7)
 summary(lm3)
@@ -133,7 +132,9 @@ summary(lm3)
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.3test.png)
 F-statistic in `lm3` is 29.69, greater than F-statistic in lm1=25.91
 new model `lm3` is better than the model in Question 1
+
 (d)
+
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.1test.png)
 
 (e)&(f)
