@@ -210,4 +210,4 @@ windows()
 par(mfrow=c(2,2))
 plot(s5,main = "Graph of Q5")
 ```
-![image](https://github.com/g20021215/RProject2022/blob/main/10.5test.png)
+![image](https://github.com/g20021215/RProject2022/blob/main/10.5.png)
