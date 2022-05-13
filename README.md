@@ -145,7 +145,7 @@ windows()
 par(mfrow=c(2,2))
 plot(lm3)
 ```
-![image](https://github.com/g20021215/RProject2022/blob/main/10.4.png)
+![image](https://github.com/g20021215/RProject2022/blob/main/10.3.png)
 
 
 # Problem 4
