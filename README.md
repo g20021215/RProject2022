@@ -257,4 +257,20 @@ windows()
 par(mfrow=c(2,2))
 plot(s5,main = "Graph of Q5")
 ```
-![image](https://github.com/g20021215/RProject2022/blob/main/10.5.png)
+ ![image](https://github.com/g20021215/RProject2022/blob/main/10.5.png)
+
+## Table:
+```R
+
+M<-  c("Q1","Q2","Q3","Q4","Q5")
+pValue<- c("< 2.2E-16","< 2.2E-16","< 2.2E-16","< 2.2E-16","< 2.2E-16" )
+Sig<- c("No","Yes","No", "No","No")
+Rsqure <- c(0.3699, 0.3642, 0.3699, 0.3846,0.3617)
+ProjectData <- data.frame(M, pValue , Sig, Rsqure)
+colnames(ProjectData) <- c("Models","p-value of F-test","Sig. of all x-var.","R-Square" )
+write.table(ProjectData,"/Users/chenzhihan/Desktop/R/ProjectData.txt")
+write.csv(ProjectData,"/Users/chenzhihan/Desktop/R/ProjectData.csv")
+
+```
+
+![image](https://github.com/g20021215/RProject2022/blob/main/table.jpg)
