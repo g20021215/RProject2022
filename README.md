@@ -125,7 +125,7 @@ lm1 = lm(Y~X1+X2+X3+X4+X5+X6+X7)
 step(lm1,direction = "both")
 
 ```
-![image](https://github.com/g20021215/RProject2022/blob/main/test.jpg)
+![image](https://github.com/g20021215/RProject2022/blob/main/step.jpg)
 
 (b)&(c)
 ```R
