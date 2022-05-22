@@ -50,11 +50,13 @@ Estimated Regression Model:
 ![image](https://github.com/g20021215/RProject2022/blob/main/1f.png)
 
 
-
 (C)
 The R^2 and adjusted R^2 are all approximate 0.35, which means the fitting level is okay.
 
 F statistic: The F value (8,+infty) is 2.93,and it is less than the model F-value = 25.91,so the model is significant at 0.05 level.
+
+
+![image](https://github.com/g20021215/RProject2022/blob/main/10.1test.png)
 
 (D)
 
@@ -73,13 +75,13 @@ plot(lm2)
 
 ```
 
-![image](https://github.com/g20021215/RProject2022/blob/main/10.1test.png)
+
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.1.png)
 
 
 
-# Problem 2 
+# Problem 2 侯香伶
 ![image](https://github.com/g20021215/RProject2022/blob/main/Q2.png)
 ```R
 (a)
@@ -108,6 +110,8 @@ according to Q1, the p-value of variables x1,x2,x3,x4,x7 are all<0.05,these are 
 c)
 Since the p-values of the two models are same, the adjusted R-squared of them is similar, and the F-value of model in Question 1 is 25.91, the F-value of model in Question 2 is 33.89>25.91, so model in Question 2 is better than model in Question 1.
 
+![image](https://github.com/g20021215/RProject2022/blob/main/10.2test.png)
+
 (e)(f)
 ```R
 summary(model)
@@ -116,11 +120,11 @@ par(mfrow=c(2,2))
 plot(model)
 
 ```
-![image](https://github.com/g20021215/RProject2022/blob/main/10.2test.png)
+
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2.png)
 
-# Problem 3
+# Problem 3 陈韵扬
 ![image](https://github.com/g20021215/RProject2022/blob/main/Q3.png)
 (a)
 ```R
@@ -153,7 +157,7 @@ plot(lm3)
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.3.png)
 
 
-# Problem 4
+# Problem 4  李文锐
 ![image](https://github.com/g20021215/RProject2022/blob/main/Q4.png)
 
 The final estimated regression model in Problem 3 is 
@@ -182,7 +186,6 @@ s4<-lm(Y~X1+X2+X3_sqr+X4+X5+X7)
 summary(s4)
 ```
 
-![image](https://github.com/g20021215/RProject2022/blob/main/10.4test.png)
 
  (b)
  
@@ -193,6 +196,9 @@ If one-car garage, z=1; else z=0.
  (c)
  
 Since the p-value of the new model is equal to the p-value of Q3, F-value of the new model is larger than F-value of Q3. Also, the adjusted R-squared of them is similar. We can conclude that this new model is better than the model in Q3.
+
+
+![image](https://github.com/g20021215/RProject2022/blob/main/10.4test.png)
 
 (d)
 
@@ -210,7 +216,7 @@ plot(s4,main = "Graph of Q4")
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.4.png)
 
-# Problem 5
+# Problem 5 陈郅涵
 
 ![image](https://github.com/g20021215/RProject2022/blob/main/Q5.png)
 
@@ -240,7 +246,7 @@ s5<-lm(Y~X1+X2+X3+X4_sqr+X5+X7)
 summary(s5)
 
 ```
-![image](https://github.com/g20021215/RProject2022/blob/main/10.5test.png)
+
 
 (b)
 
@@ -251,6 +257,9 @@ if one-car garage, z=1;else z=0.
 (c)
 
 Since the p-value of the new model is equal to the p-value of Q4, F-value of the new model is smaller than F-value of Q4. Also, the adjusted R-squared of them is similar. We can conclude that this new model isn’t better than the model in Q4.
+
+
+![image](https://github.com/g20021215/RProject2022/blob/main/10.5test.png)
 
 (d)
 
