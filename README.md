@@ -250,7 +250,7 @@ if one-car garage, z=1;else z=0.
 
 (c)
 
-Since the p-value of the new model is equal to the p-value of Q4, F-value of the new model is smaller than F-value of Q4. Also, the adjusted R-squared of them is similar. We can conclude that this new model isn’t better than the model in Q3.
+Since the p-value of the new model is equal to the p-value of Q4, F-value of the new model is smaller than F-value of Q4. Also, the adjusted R-squared of them is similar. We can conclude that this new model isn’t better than the model in Q4.
 
 (d)
 
