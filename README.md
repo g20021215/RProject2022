@@ -1,20 +1,21 @@
 # RProject2022
 This repository is used for R Presentation.
 
-王一安 2030005058 Q1
+王一安 2030005058 Problem1
 
-侯香伶 2030005029 Q2
+侯香伶 2030005029 Problem2
 
-陈韵扬 2030005011 Q3
+陈韵扬 2030005011 Problem3
 
-李文锐 2030005036 Q4
+李文锐 2030005036 Problem4
 
-陈郅涵 2030005013 Q5
+陈郅涵 2030005013 Problem5
 
 ![test image size]<img src="https://github.com/g20021215/RProject2022/blob/main/R.png" width="450" height="400">
 %
-
-# Problem 1
+![image](https://github.com/g20021215/RProject2022/blob/main/1.png)
+# Problem 1 王一安
+![image](https://github.com/g20021215/RProject2022/blob/main/Q1.png)
 Code Q1.R
 ```R
 #Y=Value
@@ -78,7 +79,8 @@ plot(lm2)
 
 
 
-# Problem 2
+# Problem 2 
+![image](https://github.com/g20021215/RProject2022/blob/main/Q2.png)
 ```R
 (a)
 A <- read.csv("RealEstate.csv",header = TRUE)
@@ -119,6 +121,7 @@ plot(model)
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.2.png)
 
 # Problem 3
+![image](https://github.com/g20021215/RProject2022/blob/main/Q3.png)
 (a)
 ```R
 lm1 = lm(Y~X1+X2+X3+X4+X5+X6+X7)
@@ -151,6 +154,7 @@ plot(lm3)
 
 
 # Problem 4
+![image](https://github.com/g20021215/RProject2022/blob/main/Q4.png)
 
 The final estimated regression model in Problem 3 is 
 
@@ -207,6 +211,8 @@ plot(s4,main = "Graph of Q4")
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.4.png)
 
 # Problem 5
+
+![image](https://github.com/g20021215/RProject2022/blob/main/Q5.png)
 
 The final estimated regression model in Problem 4 is 
 ![image](https://github.com/g20021215/RProject2022/blob/main/4f.png)
