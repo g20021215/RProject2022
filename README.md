@@ -156,6 +156,9 @@ plot(lm3)
 ```
 ![image](https://github.com/g20021215/RProject2022/blob/main/10.3.png)
 
+The final estimated regression model in Problem 3 is 
+
+![image](https://github.com/g20021215/RProject2022/blob/main/3f.png)
 
 # Problem 4  李文锐
 ![image](https://github.com/g20021215/RProject2022/blob/main/Q4.png)
